@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu:ital,wght@1,300&display=swap');
+body{
+        font-family: 'Ubuntu', sans-serif !important;
+        background-color: rgb(145, 228, 247) !important;
+}
+.contact-img{
+         width:200px;
+         border-radius: 50%;
+}
+.bdr{
+        border: 2px solid black;
+}

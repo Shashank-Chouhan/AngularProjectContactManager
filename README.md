@@ -25,3 +25,22 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+npm i bootstrap
+npm i font-awwesome
+
+ng g c name
+Components--
+1. navbar
+2. contact-manager
+3. add-contact
+4. edit-contact
+5. view-contact
+6. spinner
+
+ng g s name
+Services--
+1. contact
+
+models--

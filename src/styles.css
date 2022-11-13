@@ -11,3 +11,7 @@ body{
 .bdr{
         border: 2px solid black;
 }
+.contact-img-big{
+        width:300px;
+        border-radius: 50%; 
+}

@@ -1,0 +1,75 @@
+{
+    "contacts": [
+        {
+            "name" : "Ram",
+            "photo" : "",
+            "mobile" : "1971558926",
+            "email" : "ram@email.com",
+            "company" : "Infosys",
+            "title" : "SDE1",
+            "groupId" : "dev",
+            "id" : "50114"
+        },
+        {
+            "name" : "Shyam",
+            "photo" : "",
+            "mobile" : "4478558926",
+            "email" : "shyam@email.com",
+            "company" : "Tcs",
+            "title" : "SDE2",
+            "groupId" : "test",
+            "id" : "50415"
+        },{
+            "name" : "Pam",
+            "photo" : "",
+            "mobile" : "1971777799",
+            "email" : "pam@email.com",
+            "company" : "Infosys",
+            "title" : "SDE2",
+            "groupId" : "dev",
+            "id" : "50125"
+        },{
+            "name" : "Tam",
+            "photo" : "",
+            "mobile" : "8974524926",
+            "email" : "tam@email.com",
+            "company" : "Google",
+            "title" : "SDE1",
+            "groupId" : "dev",
+            "id" : "50994"
+        },{
+            "name" : "Dharam",
+            "photo" : "",
+            "mobile" : "6645782996",
+            "email" : "Dharam@email.com",
+            "company" : "Amazon",
+            "title" : "SDE3",
+            "groupId" : "dev",
+            "id" : "50114"
+        }
+    ],
+
+    "groups": [
+        {
+            "id" : "1",
+            "name" : "Colleuge"
+        },
+        {
+            "id" : "2",
+            "name" : "Friend"
+        },{
+            "id" : "3",
+            "name" : "Family"
+        },{
+            "id" : "4",
+            "name" : "Service"
+        },{
+            "id" : "5",
+            "name" : "Community"
+        },{
+            "id" : "6",
+            "name" : "Social"
+        }
+    ]
+
+}

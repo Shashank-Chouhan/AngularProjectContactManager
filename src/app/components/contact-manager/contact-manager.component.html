@@ -26,34 +26,44 @@
         </div>
     </div>
 </div>
-
-<!-- cards -->
-<div class="container mt-3">
+<!-- loading spinner -->
+<div *ngIf="loading">
+    <app-spinner></app-spinner>
+</div>
+<!-- error message -->
+<div class="container">
     <div class="row">
-        <div class="col-md-6">
-            <div class="card list-group-item-danger shadow-lg">
+        <div class="col">
+            <p class="h4 text-danger fw-bold">{{errorMessage}}</p>
+        </div>
+    </div>
+</div>
+<!-- cards -->
+<div class="container mt-3" *ngIf="!loading && contacts.length>0">
+    <div class="row">
+        <div class="col-md-6" *ngFor="let contact of contacts">
+            <div class="card list-group-item-danger shadow-lg my-2">
                 <div class="card-body">
                     <div class="row align-items-center">
                         <div class="col-sm-4">
-                            <img src="https://th.bing.com/th/id/R.6b0022312d41080436c52da571d5c697?rik=ejx13G9ZroRrcg&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fuser-png-icon-young-user-icon-2400.png&ehk=NNF6zZUBr0n5i%2fx0Bh3AMRDRDrzslPXB0ANabkkPyv0%3d&risl=&pid=ImgRaw&r=0" 
-                            alt="UserImg" 
+                            <img [src]="contact.photo" alt="UserImg" 
                             class="contact-img">
                         </div>
                         <div class="col-sm-7">
                             <ul class="list-group">
                                 <li class="list-group-item">
-                                    Name : <span class="fw-bold">Name</span>
+                                    Name : <span class="fw-bold">{{contact.name}}</span>
                                 </li>
                                 <li class="list-group-item">
-                                    Email : <span class="fw-bold">Email</span>
+                                    Email : <span class="fw-bold">{{contact.email}}</span>
                                 </li>
                                 <li class="list-group-item">
-                                    Mobile : <span class="fw-bold">Mobile</span>
+                                    Mobile : <span class="fw-bold">{{contact.mobile}}</span>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-sm-1 d-flex flex-column justify-content-center align-items-center">
-                            <a routerLink="/contacts/view/:contactId" class="btn btn-warnirng my-1 ">
+                            <a routerLink="/contacts/view/{{contact.id}}" class="btn btn-warnirng my-1 ">
                                 <i class="fa fa-eye border"></i>
                             </a>
                             <a routerLink="/contacts/edit/:contactId" class="btn btn-primary my-1 ">

@@ -5,13 +5,15 @@ body{
         background-color: rgb(145, 228, 247) !important;
 }
 .contact-img{
-         width:200px;
+         width:10em;
+         height: 10em;
          border-radius: 50%;
 }
 .bdr{
         border: 2px solid black;
 }
 .contact-img-big{
-        width:300px;
+        width:20em;
+        height: 20em;
         border-radius: 50%; 
 }

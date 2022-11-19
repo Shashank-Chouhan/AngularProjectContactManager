@@ -49,8 +49,8 @@ export class ContactService {
   }
 
    //Get sigle group
-  public getGroup(): Observable<IGroup> {
-    let dataURL: string = `${this.serverUrl}/groups`;
+  public getGroup(contactId: string): Observable<IGroup> {
+    let dataURL: string = `${this.serverUrl}/groups/${contactId}`;
     return this.httpClient.get<IGroup>(dataURL).pipe(catchError(this.handleError));
   }
 

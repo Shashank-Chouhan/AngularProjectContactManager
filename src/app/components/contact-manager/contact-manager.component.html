@@ -31,7 +31,7 @@
     <app-spinner></app-spinner>
 </div>
 <!-- error message -->
-<div class="container">
+<div class="container" *ngIf="!loading && errorMessage">
     <div class="row">
         <div class="col">
             <p class="h4 text-danger fw-bold">{{errorMessage}}</p>
@@ -66,10 +66,10 @@
                             <a routerLink="/contacts/view/{{contact.id}}" class="btn btn-warnirng my-1 ">
                                 <i class="fa fa-eye border"></i>
                             </a>
-                            <a routerLink="/contacts/edit/:contactId" class="btn btn-primary my-1 ">
+                            <a routerLink="/contacts/edit/{{contact.id}}" class="btn btn-primary my-1 ">
                                 <i class="fa fa-pen"></i>
                             </a>
-                            <button class="btn btn-danger my-1">
+                            <button class="btn btn-danger my-1" (click)="deleteContact(contact.id)">
                                 <i class="fa fa-trash-alt"></i>
                             </button>
                         </div>

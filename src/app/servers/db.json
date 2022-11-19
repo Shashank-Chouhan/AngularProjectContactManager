@@ -1,76 +1,70 @@
 {
-    "contacts": [
-        {
-            "name" : "Scarlett",
-            "photo" : "https://www.chicagotribune.com/resizer/lSijZTL0In5Ued3HLlUnKbsYmZc=/1200x0/top/www.trbimg.com/img-513f5171/turbine/sns-50-most-beautiful-celebs-pictures",
-            "mobile" : "1971558926",
-            "email" : "sj@email.com",
-            "company" : "Infosys",
-            "title" : "SDE1",
-            "groupId" : "dev",
-            "id" : "50114"
-        },
-        {
-            "name" : "Shyam",
-            "photo" : "https://i2.wp.com/www.kveller.com/wp-content/uploads/2016/03/Dianna-Agron.jpg",
-            "mobile" : "4478558926",
-            "email" : "shyam@email.com",
-            "company" : "Tcs",
-            "title" : "SDE2",
-            "groupId" : "test",
-            "id" : "50415"
-        },{
-            "name" : "Pam",
-            "photo" : "https://1.bp.blogspot.com/-xmFKz7ljEnw/Uf_gAN7UAwI/AAAAAAAAAqo/yvAPmbSRqYM/s1600/holf.jpg",
-            "mobile" : "1971777799",
-            "email" : "pam@email.com",
-            "company" : "Infosys",
-            "title" : "SDE2",
-            "groupId" : "dev",
-            "id" : "50125"
-        },{
-            "name" : "Tam",
-            "photo" : "https://imgix.ranker.com/user_node_img/45/889194/original/drew-barrymore-photo-u206?fit=crop&fm=pjpg&q=60&w=650&dpr=2",
-            "mobile" : "8974524926",
-            "email" : "tam@email.com",
-            "company" : "Google",
-            "title" : "SDE1",
-            "groupId" : "dev",
-            "id" : "50994"
-        },
-        {
-            "name" : "Dharam",
-            "photo" : "https://qph.fs.quoracdn.net/main-qimg-183fce3cab061672b7515b55bb22c7bc",
-            "mobile" : "6645782996",
-            "email" : "Dharam@email.com",
-            "company" : "Amazon",
-            "title" : "SDE3",
-            "groupId" : "dev",
-            "id" : "50114"
-        }
-    ],
-
-    "groups": [
-        {
-            "id" : "1",
-            "name" : "Colleuge"
-        },
-        {
-            "id" : "2",
-            "name" : "Friend"
-        },{
-            "id" : "3",
-            "name" : "Family"
-        },{
-            "id" : "4",
-            "name" : "Service"
-        },{
-            "id" : "5",
-            "name" : "Community"
-        },{
-            "id" : "6",
-            "name" : "Social"
-        }
-    ]
-
+  "contacts": [
+    {
+      "name": "Scarlett",
+      "photo": "https://www.chicagotribune.com/resizer/lSijZTL0In5Ued3HLlUnKbsYmZc=/1200x0/top/www.trbimg.com/img-513f5171/turbine/sns-50-most-beautiful-celebs-pictures",
+      "mobile": "1971558926",
+      "email": "sj@email.com",
+      "company": "Infosys",
+      "title": "SDE1",
+      "groupId": "4",
+      "id": "50114"
+    },
+    {
+      "name": "Shyam",
+      "photo": "https://i2.wp.com/www.kveller.com/wp-content/uploads/2016/03/Dianna-Agron.jpg",
+      "mobile": "4478558926",
+      "email": "shyam@email.com",
+      "company": "Tcs",
+      "title": "SDE2",
+      "groupId": "3",
+      "id": "50415"
+    },
+    {
+      "name": "Drew barrymore",
+      "photo": "https://imgix.ranker.com/user_node_img/45/889194/original/drew-barrymore-photo-u206?fit=crop&fm=pjpg&q=60&w=650&dpr=2",
+      "mobile": "8974524926",
+      "email": "drew@email.com",
+      "company": "facebook",
+      "title": "SDE2",
+      "groupId": "4",
+      "id": "50994"
+    },
+    {
+      "name": "soilder",
+      "photo": "https://th.bing.com/th/id/OIP.57YhLVD8GglYneh3tkeHzAHaEK?pid=ImgDet&rs=1",
+      "email": "one.army.com",
+      "mobile": 7894651320,
+      "company": "Indian Army",
+      "title": "Captain",
+      "groupId": "3",
+      "id": "h4TKkO4"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleuge"
+    },
+    {
+      "id": "2",
+      "name": "Friend"
+    },
+    {
+      "id": "3",
+      "name": "Family"
+    },
+    {
+      "id": "4",
+      "name": "Service"
+    },
+    {
+      "id": "5",
+      "name": "Community"
+    },
+    {
+      "id": "6",
+      "name": "Social"
+    }
+  ]
 }
